@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -10,17 +10,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0:100,400..900;1,100..900&display=swap"
         rel="stylesheet">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <script type="text/javascript" src="js/scripts.js"></script>
 </head>
 </head>
 
 <body>
-    <div class="navigation">
+    <div id="navigation" class="navigation">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="portifolio.html">Portifolio</a></li>
             <li><a href="curriculo.html">Curriculo</a></li>
             <li><a href="contato.html">Contato</a></li>
-            <li class="threeline-icon">&#9776;</li>
+            <li id="threeline-icon" class="threeline-icon" onclick="openNavy()">&#9776;</li><!-- -->
         </ul>
     </div>
     <div class="main">
@@ -67,7 +69,6 @@
             </a>
         </div>
 
-
         <div style="background-image: url(images/trabalhos/pixelbag.jpeg);" class="miniatura">
             <a href="webdesign-psp.html">
                 <div class="blackbox">
@@ -78,12 +79,9 @@
                 </div>
             </a>
         </div>
-
         <br>
         <a class="back-link" href="index.html">&larr;Voltar ao Início</a>
-
     </div>
-
 </body>
 
 </html>
