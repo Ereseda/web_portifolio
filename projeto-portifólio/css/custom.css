@@ -44,6 +44,11 @@ body{
     display: none;
 }
 
+.navigation li.threeline-icon:hover{
+    color:#f27609;
+    cursor: pointer;
+}
+
 .caminho li a{
     color: #fff;
 }
@@ -240,7 +245,7 @@ body{
 
     .navigation li.threeline-icon{
         display: inline-block;
-    }
+    }   
 
     .capa div{
         display:block;
